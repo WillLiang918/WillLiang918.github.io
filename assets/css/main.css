@@ -2047,6 +2047,10 @@
 			border-radius: 0.35em;
 			display: block;
 		}
+		.image video {
+			border-radius: 0.35em;
+			display: block;
+		}
 
 		.image.left {
 			float: left;
@@ -2076,6 +2080,10 @@
 
 			.image.fit img {
 				width: 100%;
+			}
+			.image.fit video {
+				width: 100%;
+				height: 197px;
 			}
 
 		.image.avatar {
