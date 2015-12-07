@@ -2072,17 +2072,22 @@
 				width: 100%;
 			}
 
-		.image.fit {
-			display: block;
-			margin: 0 0 2em 0;
-			width: 100%;
-		}
-
-			.image.fit img {
+			.image.fit {
+				display: block;
+				margin: 0 0 2em 0;
 				width: 100%;
+				height: 200px;
+				background-color: black;
 			}
-			.image.fit video {
+
+			.fit img {
 				width: 100%;
+				height: 200px;
+			}
+			.fit video {
+				width: 100%;
+				/*height: 200px;*/
+				height: 200px;
 			}
 
 		.image.avatar {
